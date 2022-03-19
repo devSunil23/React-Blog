@@ -14,7 +14,7 @@ import Postpage from "./components/postpage/Postpage";
 import Resheading from "./components/Resheading";
 import Navigationmenures from "./components/Navigationmenures";
 const App = () => {
-  const [toggle, settoggle] = useState(true);
+  const [toggle, settoggle] = useState(false);
   const showToggle = () => {
     settoggle(!toggle);
   };
