@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import Profile from "./Profile";
+import { PostImage } from "./Postpage";
 const Postsecond = () => {
+  const imgPost = useContext(PostImage);
   return (
     <>
       <div className="postSecond">
@@ -36,7 +38,8 @@ const Postsecond = () => {
             </div>
           </div>
           <img
-            src="./images/reactss.png"
+            // src="./images/reactss.png"
+            src={imgPost}
             alt="reactss"
             className="reactScreenShot"
           />

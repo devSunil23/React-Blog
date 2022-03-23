@@ -9,7 +9,7 @@ export const imageDataFirst = {
 const imageDataSecond = [
   {
     imgUrl:
-      "https://i.insider.com/5d9b69ec6932a04a08575612?width=600&format=jpeg&auto=webp",
+      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
     title: "Catch waves with adventure guide",
     number: 2,
     paraBottomFirst: "Travel",

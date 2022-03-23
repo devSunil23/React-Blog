@@ -17,18 +17,22 @@ const Home = () => {
         </div>
         <div className="grid2 grid">
           <div className="homeTitleRight">
-            <h3 className="titleHeadRight">
-              The sound cloud you loved is domed
-            </h3>
-            <p className="titleParaRight">Travel/21 agust 2022</p>
+            <NavLink to="/post" className="headingPara">
+              <h3 className="titleHeadRight">
+                The sound cloud you loved is domed
+              </h3>
+              <p className="titleParaRight">Travel/21 agust 2022</p>
+            </NavLink>
           </div>
         </div>
         <div className="grid3 grid">
           <div className="homeTitleRight">
-            <h3 className="titleHeadRight">
-              The sound cloud you loved is domed
-            </h3>
-            <p className="titleParaRight">Travel/21 agust 2022</p>
+            <NavLink to="/post" className="headingPara">
+              <h3 className="titleHeadRight">
+                The sound cloud you loved is domed
+              </h3>
+              <p className="titleParaRight">Travel/21 agust 2022</p>
+            </NavLink>
           </div>
         </div>
       </div>

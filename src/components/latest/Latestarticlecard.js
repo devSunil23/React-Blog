@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Latestarticlecard = ({
   imgCard,
@@ -14,11 +15,13 @@ const Latestarticlecard = ({
           <img src={imgCard} alt="bg" className="cardImaeField" />
         </div>
         <div className="articleCardRight">
-          <h2 className="articleRightHeading">{headingTitle}</h2>
-          <p className="articlePara">{articlePara}</p>
-          <p className="arcticleBottomPara">
-            {paraBottomFirst} <span>{paraBottomSecond}</span>
-          </p>
+          <NavLink to="/Post" style={{ textDecoration: "none" }}>
+            <h2 className="articleRightHeading">{headingTitle}</h2>
+            <p className="articlePara">{articlePara}</p>
+            <p className="arcticleBottomPara">
+              {paraBottomFirst} <span>{paraBottomSecond}</span>
+            </p>
+          </NavLink>
         </div>
       </div>
     </>
